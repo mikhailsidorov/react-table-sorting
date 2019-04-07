@@ -1,0 +1,26 @@
+.search {
+    display: flex;
+    justify-content: flex-end;
+
+    &>* {
+        box-sizing: border-box;
+    }
+}
+
+.searchInput {
+    height: 2em;
+    margin: 0 0 0 10px;
+    padding: 0;
+    border: 1px solid #c4c4c4;
+    width: 30em;
+}
+
+.searchLabel {
+    padding-right: 0.5em;
+}
+
+.searchButton {
+    background-color: #e8e8e8;
+    height: 2em;
+    border: 1px solid #c4c4c4;
+}

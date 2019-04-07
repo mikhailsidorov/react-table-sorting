@@ -1,0 +1,17 @@
+.paginationButtonPrevious,
+.paginationButtonNext,
+.paginationButton {
+    padding: 1em 1.3em;
+}
+
+.paginationButtonPrevious:hover,
+.paginationButtonNext:hover,
+.paginationButton:hover {
+    cursor: pointer;
+}
+
+.paginationButtonActive {
+    background: linear-gradient(160deg, #ffffff, #c4c4c4);
+    border: 2px solid #b1b1b1;
+    border-radius: 3px;
+}
