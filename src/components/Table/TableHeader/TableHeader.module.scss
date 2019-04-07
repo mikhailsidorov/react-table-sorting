@@ -1,0 +1,23 @@
+.tableHeaderItem {
+    font-weight: bold;
+    border-bottom: 2px solid;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 15px;
+        bottom: 0;
+        border: 5px solid transparent;
+        border-top: 8px solid #dbdbdb;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        border: 5px solid transparent;
+        border-bottom: 8px solid #dbdbdb;
+    }
+}

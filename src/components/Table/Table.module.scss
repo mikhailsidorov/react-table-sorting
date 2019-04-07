@@ -1,0 +1,21 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, auto));
+    border-bottom: 2px solid #000000;
+
+    & * {
+        padding: 0.7em;
+    }
+}
+
+.table-component__table__odd-row {
+    background-color: #f9f9f9;
+}
+
+.table-component__table__cell__sorted-column {
+    background-color: #f3f3f3;
+}
+
+.table-component__table__odd-row__sorted-column {
+    background: #ececec;
+}
